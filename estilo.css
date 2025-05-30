@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=VT323&display=swap');
+
+@font-face {
+  font-family: 'PacFont';
+  src: url('Fontes/PAC-FONT.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jumpman';
+  src: url('Fontes/Jumpman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SuperMario256';
+  src: url('Fontes/SuperMario256.ttf') format('truetype');
+}
+
+
+body {
+  background-color: rgb(228, 207, 178);
+  font-size: 25px;
+}
+
+#intro-pag {
+  background-color: rgb(228, 207, 178);
+  padding: 20px;
+  border-bottom: 4px solid #3b2e2a;
+  text-align: center;
+}
+
+#titulo {
+  font-family: VT323;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(195, 67, 66);
+  padding: 50px 0;
+  margin: 0px;
+  text-shadow: 2px 2px rgb(231, 173, 62);
+  background-color: rgb(83, 66, 76);
+}
+
+.texto-inicial {
+  font-size: 20px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+a {
+  display: block;
+  background-color: #222;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+
+div.conteudo-padrao {
+  width: 100%;
+  border: 2px solid #3b2e2a;
+  padding: 20px;
+  margin: 30px 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #f5f0e6;
+}
+
+div.conteudo-padrao::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.conteudo-padrao p {
+  margin: 15px 30px 30px 8px;
+}
+
+div.conteudo-padrao div {
+  width: 50%;
+  float: left;
+}
+
+img {
+  width: 700px;
+}
+
+h2 {
+  clear: both;
+}
+
+#si {
+  font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+#pac {
+  font-family: 'PacFont', sans-serif;
+  font-size: 1.5em;
+}
+
+#dk {
+  font-family: 'Jumpman', sans-serif;
+  font-size: 1.5em;
+}
+
+#mario {
+  font-family: 'SuperMario256', sans-serif;
+  font-size: 1.5em;
+}
+
+#console {
+  height: 50px;
+}
+
+footer {
+  background-color: #3b2e2a;      
+  color: #f5f0e6;                 
+  text-align: center;         
+  padding: 15px 10px;        
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border-top: 3px solid #c34342;  
+}
+
+footer a {
+  color: #f3d250;                 
+  text-decoration: none;         
+  font-weight: 600;
+}

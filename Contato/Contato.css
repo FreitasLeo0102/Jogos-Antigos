@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.foto-perfil {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #005f73;
+    margin-right: 20px;
+}
+
+.cabecalho-perfil div {
+    overflow: hidden; /* para conter o float */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #666;
+}
+
+.sobre,
+.interesses,
+.contato {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #005f73;
+    border-bottom: 2px solid #005f73;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.contato p {
+    margin: 5px 0;
+}
