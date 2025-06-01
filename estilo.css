@@ -48,66 +48,55 @@ body {
 }
 
 
-
 nav {
-  text-align: center;
-}
-
-nav ul {
-  width: fit-content;
-  margin: 0 auto;
-  padding: 0;
-}
-
-li {
-  float: left;
-  list-style: none;
-}
-
-a {
-  display: block;
   background-color: #222;
 }
 
-nav ul li a {
+nav ul {
+  display: flex;               
+  justify-content: center;      
+  list-style: none;            
+  margin: 0;
+  padding: 0;
+  gap: 20px;                    
+}
+
+
+nav a {
+  display: block;
   color: white;
   text-decoration: none;
   padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s;
 }
 
+nav a:hover {
+  color: rgb(195, 67, 66);;
+  background-color: #333;
+}
 
-div.conteudo-padrao {
-  width: 100%;
-  border: 2px solid #3b2e2a;
+.conteudo-padrao {
+  background-color: #f5efe3;
+  border: 3px solid #5e4430;
   padding: 20px;
-  margin: 30px 10px;
-  border-radius: 8px;
-  box-sizing: border-box;
-  background-color: #f5f0e6;
+  font-family: Georgia, serif;
+  margin: 20px;
 }
 
-div.conteudo-padrao::after {
-  content: "";
-  display: table;
-  clear: both;
+.conteudo-padrao div{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-div.conteudo-padrao p {
-  margin: 15px 30px 30px 8px;
+.conteudo-padrao div p{
+  font-size: 15;
+  max-width: 700px;
 }
 
-div.conteudo-padrao div {
-  width: 50%;
-  float: left;
-}
 
-img {
-  width: 700px;
-}
-
-h2 {
-  clear: both;
-}
 
 #si {
   font-family: 'Press Start 2P', cursive, sans-serif;
@@ -128,9 +117,6 @@ h2 {
   font-size: 1.5em;
 }
 
-#console {
-  height: 50px;
-}
 
 footer {
   background-color: #3b2e2a;      

@@ -1,63 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=VT323&display=swap');
+
 body {
+    background-color: rgb(169, 93, 212);
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    color: #333;
 }
 
-.container {
-    max-width: 800px;
+.todo-conteudo {
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(123, 48, 162);
 }
 
 header {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    background-color: rgb(123, 50, 162);
+    border: 6px solid #ff4571;
+    box-shadow: inset 0 0 0 4px #261142;
 }
 
-.foto-perfil {
-    float: left;
-    width: 120px;
-    height: 120px;
+
+h1 {
+    color: #f9dc4a;
+    font-size: 100px;
+    font-family: VT323;
+    text-shadow:
+        -2px -2px #261142,
+        2px -2px #261142,
+        -2px 2px #261142,
+        2px 2px #261142;
+    margin: 0;
+}
+
+
+nav a {
+    color: #f9cfe9;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 50px;
+    font-family: VT323;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4571;
+}
+
+.conteudo-padrao {
+    padding: 20px 35px;
+    background-color: rgb(123, 50, 162);
+    border: 6px solid #ff4571;
+    box-shadow: inset 0 0 0 4px #261142;
+}
+
+.conteudo-padrao h2 {
+    color: #f9dc4a;
+    font-size: 75px;
+    font-family: VT323;
+    text-shadow:
+        -2px -2px #261142,
+        2px -2px #261142,
+        -2px 2px #261142,
+        2px 2px #261142;
+    margin: 0;
+}
+
+.conteudo-padrao img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #005f73;
+    border: 3px solid #ff4571;
     margin-right: 20px;
+
 }
 
-.cabecalho-perfil div {
-    overflow: hidden; /* para conter o float */
+.conteudo-padrao a{
+    width: 200px;
+    height: 200px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.2em;
+.conteudo-padrao div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
 }
 
-.subtitulo {
-    font-style: italic;
-    color: #666;
-}
-
-.sobre,
-.interesses,
-.contato {
-    margin-top: 30px;
-}
-
-h2 {
-    color: #005f73;
-    border-bottom: 2px solid #005f73;
-    padding-bottom: 5px;
-}
-
-ul {
+#listas ul{
+    font-size: 40px;
     list-style-type: square;
-    padding-left: 20px;
 }
 
-.contato p {
-    margin: 5px 0;
+#img-contato img{
+    border: none;
+    margin: 0px;
 }
