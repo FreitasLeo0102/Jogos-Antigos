@@ -32,7 +32,7 @@ body {
 
 #titulo {
   font-family: VT323;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
   color: rgb(195, 67, 66);
   padding: 50px 0;
@@ -81,15 +81,16 @@ nav a:hover {
   border-radius: 10px;
   padding: 20px;
   font-family: Georgia, serif;
-  margin: 20px;
+  margin: 20px 20px auto;
+  max-width: 1460px;      
 }
 
 .conteudo-padrao div{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .conteudo-padrao div p{
